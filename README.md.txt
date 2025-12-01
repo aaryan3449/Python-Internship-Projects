@@ -1,34 +1,37 @@
 
 ---
 
-## 📄 README 2 – Password Generator (`2_Password_Generator/README.md`)
+## 📄 README 3 – Chat Application (`3_Chat_Application/README.md`)
 
 ```markdown
-# Random Password Generator
+# Simple Chat Application (Console Based)
 
-This is a simple Python program that generates a random password based on the length given by the user.
+This is a basic console-based chat application built using Python sockets.  
+Multiple clients can connect to a single server and exchange messages in real time.
 
-## Features
+## How It Works
 
-- Asks the user for the password length
-- Uses:
-  - Uppercase and lowercase letters
-  - Digits (0–9)
-  - Special characters (symbols)
-- Generates a strong random password
-- Displays the password on the screen
+- `chat_server.py` runs on the host machine and listens for incoming connections.
+- `chat_client.py` is used by each user to connect to the server.
+- Each client enters a name, and messages are broadcast to all other connected clients.
+
+## Files
+
+- `chat_server.py` – Server script that handles multiple clients.
+- `chat_client.py` – Client script to send and receive messages.
 
 ## Technologies Used
 
 - Python 3
-- `random` module
-- `string` module
+- `socket` module
+- `threading` module
 
 ## How to Run
 
-1. Make sure Python is installed on your system.
-2. Open a terminal (or command prompt).
-3. Go to the project folder:
+### 1. Start the Server
+
+1. Open a terminal.
+2. Go to the project folder:
 
    ```bash
-   cd 2_Password_Generator
+   cd 3_Chat_Application
