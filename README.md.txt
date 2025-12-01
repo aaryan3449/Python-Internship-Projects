@@ -1,22 +1,28 @@
-# BMI Calculator
 
-This is a simple Python program that calculates the Body Mass Index (BMI) of a user based on their weight and height.
+---
+
+## 📄 README 2 – Password Generator (`2_Password_Generator/README.md`)
+
+```markdown
+# Random Password Generator
+
+This is a simple Python program that generates a random password based on the length given by the user.
 
 ## Features
 
-- Takes weight (in kilograms) as input
-- Takes height (in meters) as input
-- Calculates BMI using the formula:  
-  `BMI = weight / (height * height)`
-- Tells the user whether they are:
-  - Underweight
-  - Normal weight
-  - Overweight
-  - Obese
+- Asks the user for the password length
+- Uses:
+  - Uppercase and lowercase letters
+  - Digits (0–9)
+  - Special characters (symbols)
+- Generates a strong random password
+- Displays the password on the screen
 
 ## Technologies Used
 
 - Python 3
+- `random` module
+- `string` module
 
 ## How to Run
 
@@ -25,4 +31,4 @@ This is a simple Python program that calculates the Body Mass Index (BMI) of a u
 3. Go to the project folder:
 
    ```bash
-   cd 1_BMI_Calculator
+   cd 2_Password_Generator
