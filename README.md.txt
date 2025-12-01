@@ -1,37 +1,18 @@
 
----
+# Oasis Infobyte Python Internship Projects
 
-## 📄 README 3 – Chat Application (`3_Chat_Application/README.md`)
+This repository contains the Python projects I completed during my Oasis Infobyte internship.
 
-```markdown
-# Simple Chat Application (Console Based)
+## Projects
 
-This is a basic console-based chat application built using Python sockets.  
-Multiple clients can connect to a single server and exchange messages in real time.
+1. **BMI Calculator** (`1_BMI_Calculator`)
+   - Calculates BMI based on user input of weight and height.
+   - Classifies the result as underweight, normal, overweight, or obese.
 
-## How It Works
+2. **Random Password Generator** (`2_Password_Generator`)
+   - Generates a random password of user-defined length.
+   - Uses letters, digits and special characters.
 
-- `chat_server.py` runs on the host machine and listens for incoming connections.
-- `chat_client.py` is used by each user to connect to the server.
-- Each client enters a name, and messages are broadcast to all other connected clients.
-
-## Files
-
-- `chat_server.py` – Server script that handles multiple clients.
-- `chat_client.py` – Client script to send and receive messages.
-
-## Technologies Used
-
-- Python 3
-- `socket` module
-- `threading` module
-
-## How to Run
-
-### 1. Start the Server
-
-1. Open a terminal.
-2. Go to the project folder:
-
-   ```bash
-   cd 3_Chat_Application
+3. **Simple Chat Application** (`3_Chat_Application`)
+   - Console based group chat using Python sockets.
+   - Supports multiple clients connected to a single server.
